@@ -3,11 +3,11 @@ package com.perez.mateo.petsfinder;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class detailpet_activity extends AppCompatActivity {
+public class addpetActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detailpetactivity);
+        setContentView(R.layout.activity_addpetactivity);
     }
 }

@@ -23,8 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".listpets_activity" />
-        <activity android:name=".detailpet_activity" />
+        <activity android:name=".listpetsActivity" />
+        <activity android:name=".detailpetActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -38,10 +38,10 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".map_Activity"
+            android:name=".mapActivity"
             android:label="@string/title_activity_map_" />
-        <activity android:name=".addpet_activity" />
-        <activity android:name=".foundpet_activity"></activity>
+        <activity android:name=".addpetActivity" />
+        <activity android:name=".foundpetActivity"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,31 @@
 <resources>
     <string name="app_name">PetsFinder</string>
     <string name="title_activity_map_">Map</string>
+
+
+    <string name="addpetactivity_titlepic">¿What is the last picture of your pet?</string>
+    <string name="addpetactivity_titlename">¿What is the name of your pet?</string>
+    <string name="addpetactivity_name">Name</string>
+    <string name="addpetactivity_titletype">¿What is the type of your pet?</string>
+    <string name="addpetactivity_titlecharacteristics">What are the characteristics of your pet?</string>
+    <string name="addpetactivity_characteristics">Characteristics</string>
+    <string name="addpetactivity_titleresume">¿How lost your pet?</string>
+    <string name="addpetactivity_resume">Resume</string>
+    <string name="addpetactivity_save">Save</string>
+
+
+    <string name="foundpetactivity_titlepic">Picture of the pet</string>
+    <string name="foundpetactivity_titlecharacteristics">¿What are the characteristics of the pet?(Optional)</string>
+    <string name="foundpetactivity_titleplace">¿Where did you see it?</string>
+    <string name="foundpetactivity_titlename">¿What is your name?(Optional)</string>
+    <string name="foundpetactivity_titlephone">¿What is your cell-phone number?(optional)</string>
+    <string name="foundpetactivity_titlenow">¿Is the pet with you now?</string>
+    <string name="foundpetactivity_characteristics">Characteristics</string>
+    <string name="foundpetactivity_Street">Street</string>
+    <string name="foundpetactivity_name">Name</string>
+    <string name="foundpetactivity_phone">Phone</string>
+    <string name="foundpetactivity_save">Save</string>
+    <string name="foundpetactivity_radioyes">Yes</string>
+    <string name="foundpetactivty_radiono">No</string>
+
 </resources>
