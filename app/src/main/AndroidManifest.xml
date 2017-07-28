@@ -16,15 +16,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".menuActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity
+            android:name=".menuActivity"
+            android:screenOrientation="portrait">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-        <activity android:name=".listpetsActivity" />
-        <activity android:name=".detailpetActivity" />
+        <activity
+            android:name=".listpetsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".detailpetActivity"
+            android:screenOrientation="portrait" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -39,9 +41,21 @@
 
         <activity
             android:name=".mapActivity"
-            android:label="@string/title_activity_map_" />
-        <activity android:name=".addpetActivity" />
-        <activity android:name=".foundpetActivity"></activity>
+            android:label="@string/title_activity_map_"
+            android:screenOrientation="portrait" />
+        <activity android:name=".addpetActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".foundpetActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".loginpetActivity"
+            android:theme="@style/HiddenTitleTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

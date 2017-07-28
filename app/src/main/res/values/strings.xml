@@ -2,6 +2,14 @@
     <string name="app_name">PetsFinder</string>
     <string name="title_activity_map_">Map</string>
 
+    <string name="loginpetactivity_title">Help to find lost pets in your city</string>
+    <string name="loginpetactivity_buttonfb">Continue with Facebook</string>
+
+    <string name="menuactivity_titlepic">If you found a lost pet please take a picture above</string>
+    <string name="menuactivity_addpet">Add my lost pet</string>
+    <string name="menuactivity_checkmap">Check map</string>
+    <string name="menuactivity_listpet">My list lost pets</string>
+
 
     <string name="addpetactivity_titlepic">¿What is the last picture of your pet?</string>
     <string name="addpetactivity_titlename">¿What is the name of your pet?</string>
@@ -27,5 +35,15 @@
     <string name="foundpetactivity_save">Save</string>
     <string name="foundpetactivity_radioyes">Yes</string>
     <string name="foundpetactivty_radiono">No</string>
+
+
+    <string name="listpetsactivity_namepet">Name</string>
+    <string name="list_petsactivity_statepet">State</string>
+
+
+    <string name="detailpetactivity_name">Name</string>
+    <string name="detailpetactivity_characteristics">Characteristics</string>
+    <string name="detailpetactivity_type">Type</string>
+    <string name="detailpetactivity_resume">Resume</string>
 
 </resources>

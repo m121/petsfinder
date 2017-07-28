@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.perez.mateo.petsfinder.loginpetActivity">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="320dp"
+        android:background="@drawable/cover"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="1dp"
+        android:id="@+id/imageView_loginpetactivity_coverpic" />
+
+
+    <TextView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/loginpetactivity_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="22dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_loginpetactivity_coverpic"
+        android:id="@+id/textView_loginpetactivity_title" />
+
+
+    <Button
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonfb_shapebutton"
+        android:text="@string/loginpetactivity_buttonfb"
+        android:textColor="@color/colortext"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="55dp"
+        android:id="@+id/button_loginpetactivity_loginfb"
+        app:layout_constraintTop_toBottomOf="@+id/textView_loginpetactivity_title" />
+
+</android.support.constraint.ConstraintLayout>

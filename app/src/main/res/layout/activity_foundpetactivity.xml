@@ -41,7 +41,7 @@
         android:layout_width="138dp"
         android:layout_height="126dp"
         android:id="@+id/imageView_addpetactivity_picturepet"
-        android:background="@color/colorPrimary"
+        android:background="@mipmap/ic_addpic"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/textView_foundpetactivity_titlenamepet"
@@ -151,9 +151,11 @@
 
 
     <Button
-        android:layout_width="368dp"
+        android:layout_width="@dimen/buttonWidth"
         android:layout_height="wrap_content"
         android:text="@string/foundpetactivity_save"
+        android:background="@drawable/button_shapebutton"
+        android:textColor="@color/colortext"
         android:id="@+id/button_fountpetactivity_savepet"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
